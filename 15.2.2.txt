@@ -1,0 +1,8 @@
+public boolean hasEdge(int v, int w) {
+
+      for (Integer vv : adj(v)) {
+        if (vv == w) return true;
+      }
+
+      return false;
+    }
